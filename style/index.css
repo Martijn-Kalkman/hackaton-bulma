@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(20,20,20);
+    overflow : scroll;
+    overflow-x: hidden;
+}
+
+.flexcards{
+    display: flex;
+    justify-content:  space-evenly;
+}
+
+.container-start{
+    margin-top: 12px;
+}
+.starter-content{
+    background-color: red;
+    height: 60vh;
+} 
+
+.maincol{
+    background-color: purple;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.card{
+    box-shadow: 5px 10px #888888;
+}
+
+.card-image img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-image{
+    border-bottom: 1px solid black ;
+}
+
+.card-content button{
+margin-top: 20px;
+}
+
+.title{
+    color: white;
+}
+
+.main-image{
+    box-shadow: 5px 10px white ;
+}
+
+.subtitle{
+    color: white;
+}
